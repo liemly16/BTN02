@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SUPERBUG TEAM</title>
+</head>
+<body>
+    <a href="javascript:history.back()">Trở về</a>
+    <h2>Thông tin chi tiết</h2>
+    <div><img src="images/1712538.jpg" alt=""></div>
+    <div>Họ Tên: Huỳnh Khôi</div>
+    <div>MSSV: 1712538</div>
+    <div>Ngày Sinh: 06/10/1999</div>
+    <div>Email: 1712538@student.hcmus.edu.vn</div>
+    <div>Phone: 0369199610</div>
+</body>
+</html>
