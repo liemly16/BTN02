@@ -6,24 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SUPERBUG TEAM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+    	#info{color: black}
+    	#img
+    	{
+    		margin-top: 100px;
+    	}
+    </style>
 </head>
 
-<body>
-
-    <h2>Hình chụp chung</h2>
-    <img src="images/group.jpg" alt="" width = "610" height = "457" usemap = "#groupmap">
-	<map name = "groupmap">
-		<area shape="rect" coords="264,163,359,277" href = "members/1712739/1712739.html" alt = "1712739">
-		<area shape="rect" coords="380,184,527,339" href = "members/1612872/1612872.html" alt = "1612872">
-		<area shape="rect" coords="92,246,208,358" href = "members/1712538/1712538.html" alt = "1712538">
-	</map>
-
-    <h2>Tên nhóm: SUPERBUG</h2>
-    <h2>Thông tin các thành viên</h2>
-	<h4>1712739 - Ngô Văn Tài</h4>
-	<h4>1712538 - Huỳnh Khôi</h4>
-	<h4>1612872 - Lý Thanh Liêm</h4>
-
+<body background="./images/background/group.jpg">
+    <div id = "img" class = "relative">
+	    <img src="images/group.jpg" alt="" width = "610" height = "457" usemap = "#groupmap">
+		<map name = "groupmap">
+			<area shape="rect" coords="264,163,359,277" href = "members/1712739/1712739.html" alt = "1712739">
+			<area shape="rect" coords="380,184,527,339" href = "members/1612872/1612872.html" alt = "1612872">
+			<area shape="rect" coords="92,246,208,358" href = "members/1712538/1712538.html" alt = "1712538">
+		</map>
+		<div id = "info" class = "absolute">
+		    <h2>Tên nhóm: SUPERBUG</h2>
+		    <h2>Thông tin các thành viên</h2>
+			<h4>1712739 - Ngô Văn Tài</h4>
+			<h4>1712538 - Huỳnh Khôi</h4>
+			<h4>1612872 - Lý Thanh Liêm</h4>
+		</div>
+	</div>
 </body>
 
 </html>
